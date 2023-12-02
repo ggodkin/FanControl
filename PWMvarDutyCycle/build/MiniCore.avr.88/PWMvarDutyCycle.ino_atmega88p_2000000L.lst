@@ -1,0 +1,1246 @@
+
+/home/greg/.var/app/cc.arduino.IDE2/cache/arduino/sketches/80C51FC5BBE86F9A29CFFFD1B36ED334/PWMvarDutyCycle.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+   0:	4b c0       	rjmp	.+150    	; 0x98 <__ctors_end>
+   2:	65 c0       	rjmp	.+202    	; 0xce <__bad_interrupt>
+   4:	64 c0       	rjmp	.+200    	; 0xce <__bad_interrupt>
+   6:	63 c0       	rjmp	.+198    	; 0xce <__bad_interrupt>
+   8:	62 c0       	rjmp	.+196    	; 0xce <__bad_interrupt>
+   a:	61 c0       	rjmp	.+194    	; 0xce <__bad_interrupt>
+   c:	60 c0       	rjmp	.+192    	; 0xce <__bad_interrupt>
+   e:	5f c0       	rjmp	.+190    	; 0xce <__bad_interrupt>
+  10:	5e c0       	rjmp	.+188    	; 0xce <__bad_interrupt>
+  12:	5d c0       	rjmp	.+186    	; 0xce <__bad_interrupt>
+  14:	5c c0       	rjmp	.+184    	; 0xce <__bad_interrupt>
+  16:	5b c0       	rjmp	.+182    	; 0xce <__bad_interrupt>
+  18:	5a c0       	rjmp	.+180    	; 0xce <__bad_interrupt>
+  1a:	59 c0       	rjmp	.+178    	; 0xce <__bad_interrupt>
+  1c:	58 c0       	rjmp	.+176    	; 0xce <__bad_interrupt>
+  1e:	57 c0       	rjmp	.+174    	; 0xce <__bad_interrupt>
+  20:	d9 c0       	rjmp	.+434    	; 0x1d4 <__vector_16>
+  22:	55 c0       	rjmp	.+170    	; 0xce <__bad_interrupt>
+  24:	54 c0       	rjmp	.+168    	; 0xce <__bad_interrupt>
+  26:	53 c0       	rjmp	.+166    	; 0xce <__bad_interrupt>
+  28:	52 c0       	rjmp	.+164    	; 0xce <__bad_interrupt>
+  2a:	51 c0       	rjmp	.+162    	; 0xce <__bad_interrupt>
+  2c:	50 c0       	rjmp	.+160    	; 0xce <__bad_interrupt>
+  2e:	4f c0       	rjmp	.+158    	; 0xce <__bad_interrupt>
+  30:	4e c0       	rjmp	.+156    	; 0xce <__bad_interrupt>
+  32:	4d c0       	rjmp	.+154    	; 0xce <__bad_interrupt>
+
+00000034 <__trampolines_end>:
+__trampolines_start():
+  34:	00 00       	nop
+  36:	00 00       	nop
+  38:	25 00       	.word	0x0025	; ????
+  3a:	28 00       	.word	0x0028	; ????
+  3c:	2b 00       	.word	0x002b	; ????
+
+0000003e <port_to_mode_PGM>:
+  3e:	00 00 00 00 24 00 27 00 2a 00                       ....$.'.*.
+
+00000048 <port_to_input_PGM>:
+  48:	00 00 00 00 23 00 26 00 29 00                       ....#.&.).
+
+00000052 <digital_pin_to_port_PGM>:
+  52:	04 04 04 04 04 04 04 04 02 02 02 02 02 02 03 03     ................
+  62:	03 03 03 03 02 02 03                                .......
+
+00000069 <digital_pin_to_bit_mask_PGM>:
+  69:	01 02 04 08 10 20 40 80 01 02 04 08 10 20 01 02     ..... @...... ..
+  79:	04 08 10 20 40 80 40                                ... @.@
+
+00000080 <digital_pin_to_timer_PGM>:
+  80:	00 00 00 09 00 03 02 00 00 04 05 08 00 00 00 00     ................
+	...
+
+00000098 <__ctors_end>:
+__dtors_end():
+  98:	11 24       	eor	r1, r1
+  9a:	1f be       	out	0x3f, r1	; 63
+  9c:	cf ef       	ldi	r28, 0xFF	; 255
+  9e:	d4 e0       	ldi	r29, 0x04	; 4
+  a0:	de bf       	out	0x3e, r29	; 62
+  a2:	cd bf       	out	0x3d, r28	; 61
+
+000000a4 <__do_copy_data>:
+__do_copy_data():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+  a4:	11 e0       	ldi	r17, 0x01	; 1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2410
+  a6:	a0 e0       	ldi	r26, 0x00	; 0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2411
+  a8:	b1 e0       	ldi	r27, 0x01	; 1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2412
+  aa:	ee e6       	ldi	r30, 0x6E	; 110
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2413
+  ac:	f5 e0       	ldi	r31, 0x05	; 5
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2414
+  ae:	02 c0       	rjmp	.+4      	; 0xb4 <__do_copy_data+0x10>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2417
+  b0:	05 90       	lpm	r0, Z+
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2422
+  b2:	0d 92       	st	X+, r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2424
+  b4:	a6 31       	cpi	r26, 0x16	; 22
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2425
+  b6:	b1 07       	cpc	r27, r17
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2426
+  b8:	d9 f7       	brne	.-10     	; 0xb0 <__do_copy_data+0xc>
+
+000000ba <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+  ba:	21 e0       	ldi	r18, 0x01	; 1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+  bc:	a6 e1       	ldi	r26, 0x16	; 22
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+  be:	b1 e0       	ldi	r27, 0x01	; 1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+  c0:	01 c0       	rjmp	.+2      	; 0xc4 <.do_clear_bss_start>
+
+000000c2 <.do_clear_bss_loop>:
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+  c2:	1d 92       	st	X+, r1
+
+000000c4 <.do_clear_bss_start>:
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+  c4:	a7 32       	cpi	r26, 0x27	; 39
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+  c6:	b2 07       	cpc	r27, r18
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+  c8:	e1 f7       	brne	.-8      	; 0xc2 <.do_clear_bss_loop>
+.do_clear_bss_start():
+  ca:	ce d0       	rcall	.+412    	; 0x268 <main>
+  cc:	4e c2       	rjmp	.+1180   	; 0x56a <_exit>
+
+000000ce <__bad_interrupt>:
+__vector_22():
+  ce:	98 cf       	rjmp	.-208    	; 0x0 <__vectors>
+
+000000d0 <turnOffPWM>:
+turnOffPWM():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:77
+//
+//static inline void turnOffPWM(uint8_t timer) __attribute__ ((always_inline));
+//static inline void turnOffPWM(uint8_t timer)
+static void turnOffPWM(uint8_t timer)
+{
+  switch (timer)
+  d0:	84 30       	cpi	r24, 0x04	; 4
+  d2:	81 f0       	breq	.+32     	; 0xf4 <turnOffPWM+0x24>
+  d4:	28 f4       	brcc	.+10     	; 0xe0 <turnOffPWM+0x10>
+  d6:	82 30       	cpi	r24, 0x02	; 2
+  d8:	e9 f0       	breq	.+58     	; 0x114 <turnOffPWM+0x44>
+  da:	83 30       	cpi	r24, 0x03	; 3
+  dc:	f9 f0       	breq	.+62     	; 0x11c <turnOffPWM+0x4c>
+  de:	08 95       	ret
+  e0:	88 30       	cpi	r24, 0x08	; 8
+  e2:	71 f0       	breq	.+28     	; 0x100 <turnOffPWM+0x30>
+  e4:	89 30       	cpi	r24, 0x09	; 9
+  e6:	91 f0       	breq	.+36     	; 0x10c <turnOffPWM+0x3c>
+  e8:	85 30       	cpi	r24, 0x05	; 5
+  ea:	b9 f4       	brne	.+46     	; 0x11a <turnOffPWM+0x4a>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:87
+        TCCR1A &= ~_BV(COM1A1);
+        break;
+    #endif
+    #if defined(TCCR1A) && defined(COM1B1)
+      case TIMER1B:
+        TCCR1A &= ~_BV(COM1B1);
+  ec:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+  f0:	8f 7d       	andi	r24, 0xDF	; 223
+  f2:	03 c0       	rjmp	.+6      	; 0xfa <turnOffPWM+0x2a>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:82
+  switch (timer)
+  {
+    // Timer1
+    #if defined(TCCR1A) && defined(COM1A1)
+      case TIMER1A:
+        TCCR1A &= ~_BV(COM1A1);
+  f4:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+  f8:	8f 77       	andi	r24, 0x7F	; 127
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:87
+        break;
+    #endif
+    #if defined(TCCR1A) && defined(COM1B1)
+      case TIMER1B:
+        TCCR1A &= ~_BV(COM1B1);
+  fa:	80 93 80 00 	sts	0x0080, r24	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+  fe:	08 95       	ret
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:104
+        TCCR2 &= ~_BV(COM21);
+        break;
+    #endif
+    #if defined(TCCR2A) && defined(COM2A1)
+      case TIMER2A:
+        TCCR2A &= ~_BV(COM2A1);
+ 100:	80 91 b0 00 	lds	r24, 0x00B0	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+ 104:	8f 77       	andi	r24, 0x7F	; 127
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:109
+        break;
+    #endif
+    #if defined(TCCR2A) && defined(COM2B1)
+      case TIMER2B:
+        TCCR2A &= ~_BV(COM2B1);
+ 106:	80 93 b0 00 	sts	0x00B0, r24	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+ 10a:	08 95       	ret
+ 10c:	80 91 b0 00 	lds	r24, 0x00B0	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+ 110:	8f 7d       	andi	r24, 0xDF	; 223
+ 112:	f9 cf       	rjmp	.-14     	; 0x106 <turnOffPWM+0x36>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:176
+        TCCR0 &= ~_BV(COM01);
+        break;
+    #endif
+    #if defined(TCCR0A) && defined(COM0A1)
+      case TIMER0A:
+        TCCR0A &= ~_BV(COM0A1);
+ 114:	84 b5       	in	r24, 0x24	; 36
+ 116:	8f 77       	andi	r24, 0x7F	; 127
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:181
+        break;
+    #endif
+    #if defined(TCCR0A) && defined(COM0B1)
+      case TIMER0B:
+        TCCR0A &= ~_BV(COM0B1);
+ 118:	84 bd       	out	0x24, r24	; 36
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:185
+        break;
+    #endif
+  }
+}
+ 11a:	08 95       	ret
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:181
+        TCCR0A &= ~_BV(COM0A1);
+        break;
+    #endif
+    #if defined(TCCR0A) && defined(COM0B1)
+      case TIMER0B:
+        TCCR0A &= ~_BV(COM0B1);
+ 11c:	84 b5       	in	r24, 0x24	; 36
+ 11e:	8f 7d       	andi	r24, 0xDF	; 223
+ 120:	fb cf       	rjmp	.-10     	; 0x118 <turnOffPWM+0x48>
+
+00000122 <digitalRead>:
+digitalRead():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:215
+
+  SREG = oldSREG;
+}
+
+int digitalRead(uint8_t pin)
+{
+ 122:	cf 93       	push	r28
+ 124:	df 93       	push	r29
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:216
+  uint8_t timer = digitalPinToTimer(pin);
+ 126:	28 2f       	mov	r18, r24
+ 128:	30 e0       	ldi	r19, 0x00	; 0
+ 12a:	f9 01       	movw	r30, r18
+ 12c:	e0 58       	subi	r30, 0x80	; 128
+ 12e:	ff 4f       	sbci	r31, 0xFF	; 255
+ 130:	84 91       	lpm	r24, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:217
+  uint8_t bit = digitalPinToBitMask(pin);
+ 132:	f9 01       	movw	r30, r18
+ 134:	e7 59       	subi	r30, 0x97	; 151
+ 136:	ff 4f       	sbci	r31, 0xFF	; 255
+ 138:	d4 91       	lpm	r29, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:218
+  uint8_t port = digitalPinToPort(pin);
+ 13a:	f9 01       	movw	r30, r18
+ 13c:	ee 5a       	subi	r30, 0xAE	; 174
+ 13e:	ff 4f       	sbci	r31, 0xFF	; 255
+ 140:	c4 91       	lpm	r28, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:220
+
+  if (port == NOT_A_PIN) return LOW;
+ 142:	cc 23       	and	r28, r28
+ 144:	99 f0       	breq	.+38     	; 0x16c <digitalRead+0x4a>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:224
+
+  // If the pin that support PWM output, we need to turn it off
+  // before getting a digital reading.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+ 146:	81 11       	cpse	r24, r1
+ 148:	c3 df       	rcall	.-122    	; 0xd0 <turnOffPWM>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:226
+
+  if (*portInputRegister(port) & bit) return HIGH;
+ 14a:	ec 2f       	mov	r30, r28
+ 14c:	f0 e0       	ldi	r31, 0x00	; 0
+ 14e:	ee 0f       	add	r30, r30
+ 150:	ff 1f       	adc	r31, r31
+ 152:	e8 5b       	subi	r30, 0xB8	; 184
+ 154:	ff 4f       	sbci	r31, 0xFF	; 255
+ 156:	a5 91       	lpm	r26, Z+
+ 158:	b4 91       	lpm	r27, Z
+ 15a:	ec 91       	ld	r30, X
+ 15c:	ed 23       	and	r30, r29
+ 15e:	81 e0       	ldi	r24, 0x01	; 1
+ 160:	90 e0       	ldi	r25, 0x00	; 0
+ 162:	09 f4       	brne	.+2      	; 0x166 <digitalRead+0x44>
+ 164:	80 e0       	ldi	r24, 0x00	; 0
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:228
+  return LOW;
+}
+ 166:	df 91       	pop	r29
+ 168:	cf 91       	pop	r28
+ 16a:	08 95       	ret
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:220
+{
+  uint8_t timer = digitalPinToTimer(pin);
+  uint8_t bit = digitalPinToBitMask(pin);
+  uint8_t port = digitalPinToPort(pin);
+
+  if (port == NOT_A_PIN) return LOW;
+ 16c:	80 e0       	ldi	r24, 0x00	; 0
+ 16e:	90 e0       	ldi	r25, 0x00	; 0
+ 170:	fa cf       	rjmp	.-12     	; 0x166 <digitalRead+0x44>
+
+00000172 <pinMode>:
+pinMode():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:30
+#define ARDUINO_MAIN
+#include "wiring_private.h"
+#include "pins_arduino.h"
+
+void pinMode(uint8_t pin, uint8_t mode)
+{
+ 172:	cf 93       	push	r28
+ 174:	df 93       	push	r29
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:31
+  uint8_t bit = digitalPinToBitMask(pin);
+ 176:	90 e0       	ldi	r25, 0x00	; 0
+ 178:	fc 01       	movw	r30, r24
+ 17a:	e7 59       	subi	r30, 0x97	; 151
+ 17c:	ff 4f       	sbci	r31, 0xFF	; 255
+ 17e:	24 91       	lpm	r18, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:32
+  uint8_t port = digitalPinToPort(pin);
+ 180:	8e 5a       	subi	r24, 0xAE	; 174
+ 182:	9f 4f       	sbci	r25, 0xFF	; 255
+ 184:	fc 01       	movw	r30, r24
+ 186:	84 91       	lpm	r24, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:35
+  volatile uint8_t *reg, *out;
+
+  if (port == NOT_A_PIN) return;
+ 188:	88 23       	and	r24, r24
+ 18a:	d1 f0       	breq	.+52     	; 0x1c0 <pinMode+0x4e>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:38
+
+  // JWS: can I let the optimizer do this?
+  reg = portModeRegister(port);
+ 18c:	90 e0       	ldi	r25, 0x00	; 0
+ 18e:	88 0f       	add	r24, r24
+ 190:	99 1f       	adc	r25, r25
+ 192:	fc 01       	movw	r30, r24
+ 194:	e2 5c       	subi	r30, 0xC2	; 194
+ 196:	ff 4f       	sbci	r31, 0xFF	; 255
+ 198:	a5 91       	lpm	r26, Z+
+ 19a:	b4 91       	lpm	r27, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:39
+  out = portOutputRegister(port);
+ 19c:	fc 01       	movw	r30, r24
+ 19e:	ec 5c       	subi	r30, 0xCC	; 204
+ 1a0:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1a2:	c5 91       	lpm	r28, Z+
+ 1a4:	d4 91       	lpm	r29, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:47
+    uint8_t oldSREG = SREG;
+    cli();
+    *reg &= ~bit;
+    *out &= ~bit;
+    SREG = oldSREG;
+  } else if (mode == INPUT_PULLUP) {
+ 1a6:	62 30       	cpi	r22, 0x02	; 2
+ 1a8:	71 f4       	brne	.+28     	; 0x1c6 <pinMode+0x54>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:48
+    uint8_t oldSREG = SREG;
+ 1aa:	9f b7       	in	r25, 0x3f	; 63
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:49
+    cli();
+ 1ac:	f8 94       	cli
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:50
+    *reg &= ~bit;
+ 1ae:	3c 91       	ld	r19, X
+ 1b0:	82 2f       	mov	r24, r18
+ 1b2:	80 95       	com	r24
+ 1b4:	83 23       	and	r24, r19
+ 1b6:	8c 93       	st	X, r24
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:51
+    *out |= bit;
+ 1b8:	e8 81       	ld	r30, Y
+ 1ba:	2e 2b       	or	r18, r30
+ 1bc:	28 83       	st	Y, r18
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:52
+    SREG = oldSREG;
+ 1be:	9f bf       	out	0x3f, r25	; 63
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:59
+    uint8_t oldSREG = SREG;
+    cli();
+    *reg |= bit;
+    SREG = oldSREG;
+  }
+}
+ 1c0:	df 91       	pop	r29
+ 1c2:	cf 91       	pop	r28
+ 1c4:	08 95       	ret
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:54
+    cli();
+    *reg &= ~bit;
+    *out |= bit;
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+ 1c6:	8f b7       	in	r24, 0x3f	; 63
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:55
+    cli();
+ 1c8:	f8 94       	cli
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:56
+    *reg |= bit;
+ 1ca:	ec 91       	ld	r30, X
+ 1cc:	2e 2b       	or	r18, r30
+ 1ce:	2c 93       	st	X, r18
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:57
+    SREG = oldSREG;
+ 1d0:	8f bf       	out	0x3f, r24	; 63
+ 1d2:	f6 cf       	rjmp	.-20     	; 0x1c0 <pinMode+0x4e>
+
+000001d4 <__vector_16>:
+__vector_16():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:159
+#if defined(__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__)
+ISR(TIM0_OVF_vect)
+#else
+ISR(TIMER0_OVF_vect)
+#endif
+{
+ 1d4:	1f 92       	push	r1
+ 1d6:	0f 92       	push	r0
+ 1d8:	0f b6       	in	r0, 0x3f	; 63
+ 1da:	0f 92       	push	r0
+ 1dc:	11 24       	eor	r1, r1
+ 1de:	2f 93       	push	r18
+ 1e0:	3f 93       	push	r19
+ 1e2:	8f 93       	push	r24
+ 1e4:	9f 93       	push	r25
+ 1e6:	af 93       	push	r26
+ 1e8:	bf 93       	push	r27
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:167
+  static unsigned char timer0_exact = 0;
+#endif
+
+  // copy these to local variables so they can be stored in registers
+  // (volatile variables must be read from memory on every access, so this saves time)
+  unsigned long m = timer0_millis;
+ 1ea:	80 91 23 01 	lds	r24, 0x0123	; 0x800123 <timer0_millis>
+ 1ee:	90 91 24 01 	lds	r25, 0x0124	; 0x800124 <timer0_millis+0x1>
+ 1f2:	a0 91 25 01 	lds	r26, 0x0125	; 0x800125 <timer0_millis+0x2>
+ 1f6:	b0 91 26 01 	lds	r27, 0x0126	; 0x800126 <timer0_millis+0x3>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:168
+  unsigned char f = timer0_fract;
+ 1fa:	30 91 22 01 	lds	r19, 0x0122	; 0x800122 <timer0_fract>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:170
+
+  f += FRACT_INC FRACT_INC_PLUS;
+ 1fe:	28 e1       	ldi	r18, 0x18	; 24
+ 200:	23 0f       	add	r18, r19
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:200
+    ++f;
+  }
+#endif
+#endif // CORRECT_EXACT_MILLIS
+
+  if (f >= FRACT_MAX) {
+ 202:	2d 37       	cpi	r18, 0x7D	; 125
+ 204:	68 f1       	brcs	.+90     	; 0x260 <__vector_16+0x8c>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:201
+    f -= FRACT_MAX;
+ 206:	2b e9       	ldi	r18, 0x9B	; 155
+ 208:	23 0f       	add	r18, r19
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:202
+    m += MILLIS_INC + 1;
+ 20a:	09 96       	adiw	r24, 0x09	; 9
+ 20c:	a1 1d       	adc	r26, r1
+ 20e:	b1 1d       	adc	r27, r1
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:208
+  }
+  else {
+    m += MILLIS_INC;
+  }
+
+  timer0_fract = f;
+ 210:	20 93 22 01 	sts	0x0122, r18	; 0x800122 <timer0_fract>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:209
+  timer0_millis = m;
+ 214:	80 93 23 01 	sts	0x0123, r24	; 0x800123 <timer0_millis>
+ 218:	90 93 24 01 	sts	0x0124, r25	; 0x800124 <timer0_millis+0x1>
+ 21c:	a0 93 25 01 	sts	0x0125, r26	; 0x800125 <timer0_millis+0x2>
+ 220:	b0 93 26 01 	sts	0x0126, r27	; 0x800126 <timer0_millis+0x3>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:211
+#ifndef CORRECT_EXACT_MICROS
+  timer0_overflow_count++;
+ 224:	80 91 1e 01 	lds	r24, 0x011E	; 0x80011e <timer0_overflow_count>
+ 228:	90 91 1f 01 	lds	r25, 0x011F	; 0x80011f <timer0_overflow_count+0x1>
+ 22c:	a0 91 20 01 	lds	r26, 0x0120	; 0x800120 <timer0_overflow_count+0x2>
+ 230:	b0 91 21 01 	lds	r27, 0x0121	; 0x800121 <timer0_overflow_count+0x3>
+ 234:	01 96       	adiw	r24, 0x01	; 1
+ 236:	a1 1d       	adc	r26, r1
+ 238:	b1 1d       	adc	r27, r1
+ 23a:	80 93 1e 01 	sts	0x011E, r24	; 0x80011e <timer0_overflow_count>
+ 23e:	90 93 1f 01 	sts	0x011F, r25	; 0x80011f <timer0_overflow_count+0x1>
+ 242:	a0 93 20 01 	sts	0x0120, r26	; 0x800120 <timer0_overflow_count+0x2>
+ 246:	b0 93 21 01 	sts	0x0121, r27	; 0x800121 <timer0_overflow_count+0x3>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:213
+#endif
+}
+ 24a:	bf 91       	pop	r27
+ 24c:	af 91       	pop	r26
+ 24e:	9f 91       	pop	r25
+ 250:	8f 91       	pop	r24
+ 252:	3f 91       	pop	r19
+ 254:	2f 91       	pop	r18
+ 256:	0f 90       	pop	r0
+ 258:	0f be       	out	0x3f, r0	; 63
+ 25a:	0f 90       	pop	r0
+ 25c:	1f 90       	pop	r1
+ 25e:	18 95       	reti
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:205
+  if (f >= FRACT_MAX) {
+    f -= FRACT_MAX;
+    m += MILLIS_INC + 1;
+  }
+  else {
+    m += MILLIS_INC;
+ 260:	08 96       	adiw	r24, 0x08	; 8
+ 262:	a1 1d       	adc	r26, r1
+ 264:	b1 1d       	adc	r27, r1
+ 266:	d4 cf       	rjmp	.-88     	; 0x210 <__vector_16+0x3c>
+
+00000268 <main>:
+main():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:945
+
+void init()
+{
+  // this needs to be called before setup() or some functions won't
+  // work there
+  sei();
+ 268:	78 94       	sei
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:949
+
+  // Set internal oscillator prescaler if defined (in boards.txt)
+#if defined(CLKPR) && defined(OSC_PRESCALER)
+  CLKPR = 0x80;          // Enable prescaler
+ 26a:	80 e8       	ldi	r24, 0x80	; 128
+ 26c:	80 93 61 00 	sts	0x0061, r24	; 0x800061 <__DATA_REGION_ORIGIN__+0x1>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:950
+  CLKPR = OSC_PRESCALER; // Set prescaler
+ 270:	92 e0       	ldi	r25, 0x02	; 2
+ 272:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <__DATA_REGION_ORIGIN__+0x1>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:957
+
+  // On the ATmega168, timer 0 is also used for fast hardware pwm
+  // (using phase-correct PWM would mean that timer 0 overflowed half as often
+  // resulting in different millis() behavior on the ATmega8 and ATmega168)
+#if defined(TCCR0A) && defined(WGM01)
+  TCCR0A |= _BV(WGM01) | _BV(WGM00);
+ 276:	84 b5       	in	r24, 0x24	; 36
+ 278:	83 60       	ori	r24, 0x03	; 3
+ 27a:	84 bd       	out	0x24, r24	; 36
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:972
+  #if defined(WGM00) && defined(WGM01) // The ATmega8 doesn't have WGM00 and WGM01
+    TCCR0 |= _BV(WGM01) | _BV(WGM00);
+  #endif
+#elif defined(TCCR0B) && defined(CS01) && defined(CS00)
+  // This combination is for the standard 168/328/640/1280/1281/2560/2561
+  TCCR0B |= _BV(CS01) | _BV(CS00);
+ 27c:	85 b5       	in	r24, 0x25	; 37
+ 27e:	83 60       	ori	r24, 0x03	; 3
+ 280:	85 bd       	out	0x25, r24	; 37
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:984
+
+// Enable timer 0 overflow interrupt
+#if defined(TIMSK) && defined(TOIE0)
+  TIMSK |= _BV(TOIE0);
+#elif defined(TIMSK0) && defined(TOIE0)
+  TIMSK0 |= _BV(TOIE0);
+ 282:	80 91 6e 00 	lds	r24, 0x006E	; 0x80006e <__DATA_REGION_ORIGIN__+0xe>
+ 286:	81 60       	ori	r24, 0x01	; 1
+ 288:	80 93 6e 00 	sts	0x006E, r24	; 0x80006e <__DATA_REGION_ORIGIN__+0xe>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:995
+// this is better for motors as it ensures an even waveform
+// note, however, that fast pwm mode can achieve a frequency of up
+// 8 MHz (with a 16 MHz clock) at 50% duty cycle
+
+#if defined(TCCR1B) && defined(CS11) && defined(CS10)
+  TCCR1B = _BV(CS11); // Set timer 1 prescale factor to 64
+ 28c:	90 93 81 00 	sts	0x0081, r25	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:1006
+#if F_CPU >= 8000000L
+  TCCR1 |= _BV(CS10);
+#endif
+#endif
+#if defined(TCCR1A) && defined(WGM10)
+  TCCR1A |= _BV(WGM10); // Put timer 1 in 8-bit phase correct pwm mode
+ 290:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+ 294:	81 60       	ori	r24, 0x01	; 1
+ 296:	80 93 80 00 	sts	0x0080, r24	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:1013
+
+// Set timer 2 prescale factor to 64
+#if defined(TCCR2) && defined(CS22)
+  TCCR2 |= _BV(CS22);
+#elif defined(TCCR2B) && defined(CS22)
+  TCCR2B |= _BV(CS22);
+ 29a:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+ 29e:	84 60       	ori	r24, 0x04	; 4
+ 2a0:	80 93 b1 00 	sts	0x00B1, r24	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:1022
+
+// Configure timer 2 for phase correct pwm (8-bit)
+#if defined(TCCR2) && defined(WGM20)
+  TCCR2 |= _BV(WGM20);
+#elif defined(TCCR2A) && defined(WGM20)
+  TCCR2A |= _BV(WGM20);
+ 2a4:	80 91 b0 00 	lds	r24, 0x00B0	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+ 2a8:	81 60       	ori	r24, 0x01	; 1
+ 2aa:	80 93 b0 00 	sts	0x00B0, r24	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:1056
+  #elif F_CPU >= 8000000 // 8 MHz / 64 = 125 KHz
+    ADCSRA = _BV(ADPS2) | _BV(ADPS1) | _BV(ADEN);
+  #elif F_CPU >= 4000000 // 4 MHz / 32 = 125 KHz
+    ADCSRA = _BV(ADPS2) | _BV(ADPS0) | _BV(ADEN);
+  #elif F_CPU >= 2000000 // 2 MHz / 16 = 125 KHz
+    ADCSRA = _BV(ADPS2) | _BV(ADEN);
+ 2ae:	84 e8       	ldi	r24, 0x84	; 132
+ 2b0:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <__DATA_REGION_ORIGIN__+0x1a>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:1070
+  // here so they can be used as normal digital i/o; they will be
+  // reconnected in Serial.begin()
+#if defined(UCSRB)
+  UCSRB = 0;
+#elif defined(UCSR0B)
+  UCSR0B = 0;
+ 2b4:	10 92 c1 00 	sts	0x00C1, r1	; 0x8000c1 <__DATA_REGION_ORIGIN__+0x61>
+setup():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:17
+// Define pins for LEDs
+const int ledPins[] = {5, 6, 7, 8, 9, 10, 11, 12, 0, 1};  // Adjusted LED pins
+
+void setup() {
+  // Serial.begin(115200);
+  pinMode(pwmPin, OUTPUT);
+ 2b8:	61 e0       	ldi	r22, 0x01	; 1
+ 2ba:	83 e0       	ldi	r24, 0x03	; 3
+ 2bc:	5a df       	rcall	.-332    	; 0x172 <pinMode>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:18
+  pinMode(increaseButtonPin, INPUT_PULLUP);
+ 2be:	62 e0       	ldi	r22, 0x02	; 2
+ 2c0:	82 e0       	ldi	r24, 0x02	; 2
+ 2c2:	57 df       	rcall	.-338    	; 0x172 <pinMode>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:19
+  pinMode(decreaseButtonPin, INPUT_PULLUP);
+ 2c4:	62 e0       	ldi	r22, 0x02	; 2
+ 2c6:	84 e0       	ldi	r24, 0x04	; 4
+ 2c8:	54 df       	rcall	.-344    	; 0x172 <pinMode>
+ 2ca:	06 e1       	ldi	r16, 0x16	; 22
+ 2cc:	11 e0       	ldi	r17, 0x01	; 1
+ 2ce:	c2 e0       	ldi	r28, 0x02	; 2
+ 2d0:	d1 e0       	ldi	r29, 0x01	; 1
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:23
+
+  // Setup LED pins
+  for (int i = 0; i < numLeds; ++i) {
+    pinMode(ledPins[i], OUTPUT);
+ 2d2:	88 81       	ld	r24, Y
+ 2d4:	22 96       	adiw	r28, 0x02	; 2
+ 2d6:	61 e0       	ldi	r22, 0x01	; 1
+ 2d8:	4c df       	rcall	.-360    	; 0x172 <pinMode>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:22
+  pinMode(pwmPin, OUTPUT);
+  pinMode(increaseButtonPin, INPUT_PULLUP);
+  pinMode(decreaseButtonPin, INPUT_PULLUP);
+
+  // Setup LED pins
+  for (int i = 0; i < numLeds; ++i) {
+ 2da:	0c 17       	cp	r16, r28
+ 2dc:	1d 07       	cpc	r17, r29
+ 2de:	c9 f7       	brne	.-14     	; 0x2d2 <main+0x6a>
+pwm25kHzBegin():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:35
+  updateButtons();
+  updatePWM();
+}
+
+void pwm25kHzBegin() {
+  TCCR2A = 0;                               // TC2 Control Register A
+ 2e0:	10 92 b0 00 	sts	0x00B0, r1	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:36
+  TCCR2B = 0;                               // TC2 Control Register B
+ 2e4:	10 92 b1 00 	sts	0x00B1, r1	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:37
+  TIMSK2 = 0;                               // TC2 Interrupt Mask Register
+ 2e8:	10 92 70 00 	sts	0x0070, r1	; 0x800070 <__DATA_REGION_ORIGIN__+0x10>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:38
+  TIFR2 = 0;                                // TC2 Interrupt Flag Register
+ 2ec:	17 ba       	out	0x17, r1	; 23
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:39
+  TCCR2A |= (1 << COM2B1) | (1 << WGM21) | (1 << WGM20);  // OC2B cleared/set on match when up/down counting, fast PWM
+ 2ee:	80 91 b0 00 	lds	r24, 0x00B0	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+ 2f2:	83 62       	ori	r24, 0x23	; 35
+ 2f4:	80 93 b0 00 	sts	0x00B0, r24	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:41
+  // TCCR2B |= (1 << WGM22) | (1 << CS21);     // prescaler 8
+  TCCR2B |= (1 << WGM22) | (1 << CS20);     // prescaler 1 25kHz at internal clock 2mHz
+ 2f8:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+ 2fc:	89 60       	ori	r24, 0x09	; 9
+ 2fe:	80 93 b1 00 	sts	0x00B1, r24	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:42
+  OCR2A = 79;                               // TOP overflow value (Hz)
+ 302:	8f e4       	ldi	r24, 0x4F	; 79
+ 304:	80 93 b3 00 	sts	0x00B3, r24	; 0x8000b3 <__DATA_REGION_ORIGIN__+0x53>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:43
+  OCR2B = 0;
+ 308:	10 92 b4 00 	sts	0x00B4, r1	; 0x8000b4 <__DATA_REGION_ORIGIN__+0x54>
+map():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/WMath.cpp:54
+  return random(diff) + howsmall;
+}
+
+long map(long x, long in_min, long in_max, long out_min, long out_max)
+{
+  return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+ 30c:	23 e6       	ldi	r18, 0x63	; 99
+ 30e:	82 2e       	mov	r8, r18
+ 310:	91 2c       	mov	r9, r1
+ 312:	a1 2c       	mov	r10, r1
+ 314:	b1 2c       	mov	r11, r1
+main():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/main.cpp:47
+  
+  setup();
+    
+  for (;;) {
+    loop();
+    if (serialEventRun) serialEventRun();
+ 316:	30 e0       	ldi	r19, 0x00	; 0
+ 318:	c3 2e       	mov	r12, r19
+ 31a:	30 e0       	ldi	r19, 0x00	; 0
+ 31c:	d3 2e       	mov	r13, r19
+millis():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:218
+}
+
+unsigned long millis()
+{
+  unsigned long m;
+  uint8_t oldSREG = SREG;
+ 31e:	8f b7       	in	r24, 0x3f	; 63
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:222
+
+  // disable interrupts while we read timer0_millis or we might get an
+  // inconsistent value (e.g. in the middle of a write to timer0_millis)
+  cli();
+ 320:	f8 94       	cli
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:223
+  m = timer0_millis;
+ 322:	40 90 23 01 	lds	r4, 0x0123	; 0x800123 <timer0_millis>
+ 326:	50 90 24 01 	lds	r5, 0x0124	; 0x800124 <timer0_millis+0x1>
+ 32a:	60 90 25 01 	lds	r6, 0x0125	; 0x800125 <timer0_millis+0x2>
+ 32e:	70 90 26 01 	lds	r7, 0x0126	; 0x800126 <timer0_millis+0x3>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring.c:224
+  SREG = oldSREG;
+ 332:	8f bf       	out	0x3f, r24	; 63
+updateButtons():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:50
+
+void updateButtons() {
+  unsigned long currentTime = millis();
+
+  // Increase button
+  if (digitalRead(increaseButtonPin) == LOW && currentTime - lastIncreaseTime > debounceDelay) {
+ 334:	82 e0       	ldi	r24, 0x02	; 2
+ 336:	f5 de       	rcall	.-534    	; 0x122 <digitalRead>
+ 338:	89 2b       	or	r24, r25
+ 33a:	59 f5       	brne	.+86     	; 0x392 <main+0x12a>
+ 33c:	80 91 1a 01 	lds	r24, 0x011A	; 0x80011a <lastIncreaseTime>
+ 340:	90 91 1b 01 	lds	r25, 0x011B	; 0x80011b <lastIncreaseTime+0x1>
+ 344:	a0 91 1c 01 	lds	r26, 0x011C	; 0x80011c <lastIncreaseTime+0x2>
+ 348:	b0 91 1d 01 	lds	r27, 0x011D	; 0x80011d <lastIncreaseTime+0x3>
+ 34c:	a3 01       	movw	r20, r6
+ 34e:	92 01       	movw	r18, r4
+ 350:	28 1b       	sub	r18, r24
+ 352:	39 0b       	sbc	r19, r25
+ 354:	4a 0b       	sbc	r20, r26
+ 356:	5b 0b       	sbc	r21, r27
+ 358:	da 01       	movw	r26, r20
+ 35a:	c9 01       	movw	r24, r18
+ 35c:	85 36       	cpi	r24, 0x65	; 101
+ 35e:	91 05       	cpc	r25, r1
+ 360:	a1 05       	cpc	r26, r1
+ 362:	b1 05       	cpc	r27, r1
+ 364:	b0 f0       	brcs	.+44     	; 0x392 <main+0x12a>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:51
+    dutyCycle = min(dutyCycle + 5, 99);  // Increase duty cycle by 5%
+ 366:	80 91 00 01 	lds	r24, 0x0100	; 0x800100 <__data_start>
+ 36a:	90 91 01 01 	lds	r25, 0x0101	; 0x800101 <__data_start+0x1>
+ 36e:	05 96       	adiw	r24, 0x05	; 5
+ 370:	84 36       	cpi	r24, 0x64	; 100
+ 372:	91 05       	cpc	r25, r1
+ 374:	14 f0       	brlt	.+4      	; 0x37a <main+0x112>
+ 376:	83 e6       	ldi	r24, 0x63	; 99
+ 378:	90 e0       	ldi	r25, 0x00	; 0
+ 37a:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <__data_start+0x1>
+ 37e:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <__data_start>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:52
+    lastIncreaseTime = currentTime;
+ 382:	40 92 1a 01 	sts	0x011A, r4	; 0x80011a <lastIncreaseTime>
+ 386:	50 92 1b 01 	sts	0x011B, r5	; 0x80011b <lastIncreaseTime+0x1>
+ 38a:	60 92 1c 01 	sts	0x011C, r6	; 0x80011c <lastIncreaseTime+0x2>
+ 38e:	70 92 1d 01 	sts	0x011D, r7	; 0x80011d <lastIncreaseTime+0x3>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:56
+  }
+
+  // Decrease button
+  if (digitalRead(decreaseButtonPin) == LOW && currentTime - lastDecreaseTime > debounceDelay) {
+ 392:	84 e0       	ldi	r24, 0x04	; 4
+ 394:	c6 de       	rcall	.-628    	; 0x122 <digitalRead>
+ 396:	89 2b       	or	r24, r25
+ 398:	59 f5       	brne	.+86     	; 0x3f0 <main+0x188>
+ 39a:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <__data_end>
+ 39e:	90 91 17 01 	lds	r25, 0x0117	; 0x800117 <__data_end+0x1>
+ 3a2:	a0 91 18 01 	lds	r26, 0x0118	; 0x800118 <__data_end+0x2>
+ 3a6:	b0 91 19 01 	lds	r27, 0x0119	; 0x800119 <__data_end+0x3>
+ 3aa:	a3 01       	movw	r20, r6
+ 3ac:	92 01       	movw	r18, r4
+ 3ae:	28 1b       	sub	r18, r24
+ 3b0:	39 0b       	sbc	r19, r25
+ 3b2:	4a 0b       	sbc	r20, r26
+ 3b4:	5b 0b       	sbc	r21, r27
+ 3b6:	da 01       	movw	r26, r20
+ 3b8:	c9 01       	movw	r24, r18
+ 3ba:	85 36       	cpi	r24, 0x65	; 101
+ 3bc:	91 05       	cpc	r25, r1
+ 3be:	a1 05       	cpc	r26, r1
+ 3c0:	b1 05       	cpc	r27, r1
+ 3c2:	b0 f0       	brcs	.+44     	; 0x3f0 <main+0x188>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:57
+    dutyCycle = max(dutyCycle - 5, 1);  // Decrease duty cycle by 5%
+ 3c4:	80 91 00 01 	lds	r24, 0x0100	; 0x800100 <__data_start>
+ 3c8:	90 91 01 01 	lds	r25, 0x0101	; 0x800101 <__data_start+0x1>
+ 3cc:	05 97       	sbiw	r24, 0x05	; 5
+ 3ce:	18 16       	cp	r1, r24
+ 3d0:	19 06       	cpc	r1, r25
+ 3d2:	14 f0       	brlt	.+4      	; 0x3d8 <main+0x170>
+ 3d4:	81 e0       	ldi	r24, 0x01	; 1
+ 3d6:	90 e0       	ldi	r25, 0x00	; 0
+ 3d8:	90 93 01 01 	sts	0x0101, r25	; 0x800101 <__data_start+0x1>
+ 3dc:	80 93 00 01 	sts	0x0100, r24	; 0x800100 <__data_start>
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:58
+    lastDecreaseTime = currentTime;
+ 3e0:	40 92 16 01 	sts	0x0116, r4	; 0x800116 <__data_end>
+ 3e4:	50 92 17 01 	sts	0x0117, r5	; 0x800117 <__data_end+0x1>
+ 3e8:	60 92 18 01 	sts	0x0118, r6	; 0x800118 <__data_end+0x2>
+ 3ec:	70 92 19 01 	sts	0x0119, r7	; 0x800119 <__data_end+0x3>
+updatePWM():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:74
+
+void updatePWM() {
+  // Map duty cycle to the PWM range (0 to 79 for Timer2)
+  // Serial.print("Duty Cycle: ");
+  // Serial.println(dutyCycle);
+  int pwmValue = map(dutyCycle, 1, 100, 1, 79);
+ 3f0:	20 91 00 01 	lds	r18, 0x0100	; 0x800100 <__data_start>
+ 3f4:	30 91 01 01 	lds	r19, 0x0101	; 0x800101 <__data_start+0x1>
+ 3f8:	03 2e       	mov	r0, r19
+ 3fa:	00 0c       	add	r0, r0
+ 3fc:	44 0b       	sbc	r20, r20
+ 3fe:	55 0b       	sbc	r21, r21
+map():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/WMath.cpp:54
+ 400:	21 50       	subi	r18, 0x01	; 1
+ 402:	31 09       	sbc	r19, r1
+ 404:	41 09       	sbc	r20, r1
+ 406:	51 09       	sbc	r21, r1
+ 408:	ae e4       	ldi	r26, 0x4E	; 78
+ 40a:	b0 e0       	ldi	r27, 0x00	; 0
+ 40c:	76 d0       	rcall	.+236    	; 0x4fa <__muluhisi3>
+ 40e:	a5 01       	movw	r20, r10
+ 410:	94 01       	movw	r18, r8
+ 412:	57 d0       	rcall	.+174    	; 0x4c2 <__divmodsi4>
+ 414:	2f 5f       	subi	r18, 0xFF	; 255
+ 416:	3f 4f       	sbci	r19, 0xFF	; 255
+ 418:	4f 4f       	sbci	r20, 0xFF	; 255
+ 41a:	5f 4f       	sbci	r21, 0xFF	; 255
+updatePWM():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:75
+  OCR2B = pwmValue;
+ 41c:	20 93 b4 00 	sts	0x00B4, r18	; 0x8000b4 <__DATA_REGION_ORIGIN__+0x54>
+updateLeds():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:63
+    lastDecreaseTime = currentTime;
+  }
+}
+
+void updateLeds() {
+  int numLitLeds = map(dutyCycle, 1, 100, 1, numLeds);
+ 420:	20 91 00 01 	lds	r18, 0x0100	; 0x800100 <__data_start>
+ 424:	30 91 01 01 	lds	r19, 0x0101	; 0x800101 <__data_start+0x1>
+ 428:	03 2e       	mov	r0, r19
+ 42a:	00 0c       	add	r0, r0
+ 42c:	44 0b       	sbc	r20, r20
+ 42e:	55 0b       	sbc	r21, r21
+map():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/WMath.cpp:54
+ 430:	21 50       	subi	r18, 0x01	; 1
+ 432:	31 09       	sbc	r19, r1
+ 434:	41 09       	sbc	r20, r1
+ 436:	51 09       	sbc	r21, r1
+ 438:	a9 e0       	ldi	r26, 0x09	; 9
+ 43a:	b0 e0       	ldi	r27, 0x00	; 0
+ 43c:	5e d0       	rcall	.+188    	; 0x4fa <__muluhisi3>
+ 43e:	a5 01       	movw	r20, r10
+ 440:	94 01       	movw	r18, r8
+ 442:	3f d0       	rcall	.+126    	; 0x4c2 <__divmodsi4>
+ 444:	2f 5f       	subi	r18, 0xFF	; 255
+ 446:	3f 4f       	sbci	r19, 0xFF	; 255
+ 448:	4f 4f       	sbci	r20, 0xFF	; 255
+ 44a:	5f 4f       	sbci	r21, 0xFF	; 255
+updateLeds():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:63
+ 44c:	e9 01       	movw	r28, r18
+ 44e:	92 e0       	ldi	r25, 0x02	; 2
+ 450:	e9 2e       	mov	r14, r25
+ 452:	91 e0       	ldi	r25, 0x01	; 1
+ 454:	f9 2e       	mov	r15, r25
+main():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:65
+
+  for (int i = 0; i < numLeds; ++i) {
+ 456:	10 e0       	ldi	r17, 0x00	; 0
+ 458:	00 e0       	ldi	r16, 0x00	; 0
+updateLeds():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:66
+    digitalWrite(ledPins[i], i < numLitLeds ? HIGH : LOW);
+ 45a:	f7 01       	movw	r30, r14
+ 45c:	41 91       	ld	r20, Z+
+ 45e:	51 91       	ld	r21, Z+
+ 460:	7f 01       	movw	r14, r30
+digitalWrite():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:189
+  }
+}
+
+void digitalWrite(uint8_t pin, uint8_t val)
+{
+  uint8_t timer = digitalPinToTimer(pin);
+ 462:	55 27       	eor	r21, r21
+ 464:	fa 01       	movw	r30, r20
+ 466:	e0 58       	subi	r30, 0x80	; 128
+ 468:	ff 4f       	sbci	r31, 0xFF	; 255
+ 46a:	84 91       	lpm	r24, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:190
+  uint8_t bit = digitalPinToBitMask(pin);
+ 46c:	fa 01       	movw	r30, r20
+ 46e:	e7 59       	subi	r30, 0x97	; 151
+ 470:	ff 4f       	sbci	r31, 0xFF	; 255
+ 472:	74 90       	lpm	r7, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:191
+  uint8_t port = digitalPinToPort(pin);
+ 474:	fa 01       	movw	r30, r20
+ 476:	ee 5a       	subi	r30, 0xAE	; 174
+ 478:	ff 4f       	sbci	r31, 0xFF	; 255
+ 47a:	64 90       	lpm	r6, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:194
+  volatile uint8_t *out;
+
+  if (port == NOT_A_PIN) return;
+ 47c:	66 20       	and	r6, r6
+ 47e:	a1 f0       	breq	.+40     	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:198
+
+  // If the pin that support PWM output, we need to turn it off
+  // before doing a digital write.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+ 480:	81 11       	cpse	r24, r1
+ 482:	26 de       	rcall	.-948    	; 0xd0 <turnOffPWM>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:200
+
+  out = portOutputRegister(port);
+ 484:	e6 2d       	mov	r30, r6
+ 486:	f0 e0       	ldi	r31, 0x00	; 0
+ 488:	ee 0f       	add	r30, r30
+ 48a:	ff 1f       	adc	r31, r31
+ 48c:	ec 5c       	subi	r30, 0xCC	; 204
+ 48e:	ff 4f       	sbci	r31, 0xFF	; 255
+ 490:	a5 91       	lpm	r26, Z+
+ 492:	b4 91       	lpm	r27, Z
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:202
+
+  uint8_t oldSREG = SREG;
+ 494:	8f b7       	in	r24, 0x3f	; 63
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:203
+  cli();
+ 496:	f8 94       	cli
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:206
+
+  if (val == LOW) {
+    *out &= ~bit;
+ 498:	ec 91       	ld	r30, X
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:205
+  out = portOutputRegister(port);
+
+  uint8_t oldSREG = SREG;
+  cli();
+
+  if (val == LOW) {
+ 49a:	0c 17       	cp	r16, r28
+ 49c:	1d 07       	cpc	r17, r29
+ 49e:	7c f0       	brlt	.+30     	; 0x4be <__LOCK_REGION_LENGTH__+0xbe>
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:206
+    *out &= ~bit;
+ 4a0:	70 94       	com	r7
+ 4a2:	7e 22       	and	r7, r30
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:208
+  } else {
+    *out |= bit;
+ 4a4:	7c 92       	st	X, r7
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:211
+  }
+
+  SREG = oldSREG;
+ 4a6:	8f bf       	out	0x3f, r24	; 63
+updateLeds():
+/home/greg/aproject/FanControl/PWMvarDutyCycle/PWMvarDutyCycle.ino:65
+}
+
+void updateLeds() {
+  int numLitLeds = map(dutyCycle, 1, 100, 1, numLeds);
+
+  for (int i = 0; i < numLeds; ++i) {
+ 4a8:	0f 5f       	subi	r16, 0xFF	; 255
+ 4aa:	1f 4f       	sbci	r17, 0xFF	; 255
+ 4ac:	0a 30       	cpi	r16, 0x0A	; 10
+ 4ae:	11 05       	cpc	r17, r1
+ 4b0:	a1 f6       	brne	.-88     	; 0x45a <__LOCK_REGION_LENGTH__+0x5a>
+main():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/main.cpp:47
+ 4b2:	c1 14       	cp	r12, r1
+ 4b4:	d1 04       	cpc	r13, r1
+ 4b6:	09 f4       	brne	.+2      	; 0x4ba <__LOCK_REGION_LENGTH__+0xba>
+ 4b8:	32 cf       	rjmp	.-412    	; 0x31e <main+0xb6>
+ 4ba:	a2 dd       	rcall	.-1212   	; 0x0 <__vectors>
+ 4bc:	30 cf       	rjmp	.-416    	; 0x31e <main+0xb6>
+digitalWrite():
+/home/greg/.arduino15/packages/MiniCore/hardware/avr/3.0.0/cores/MCUdude_corefiles/wiring_digital.c:208
+  cli();
+
+  if (val == LOW) {
+    *out &= ~bit;
+  } else {
+    *out |= bit;
+ 4be:	7e 2a       	or	r7, r30
+ 4c0:	f1 cf       	rjmp	.-30     	; 0x4a4 <__LOCK_REGION_LENGTH__+0xa4>
+
+000004c2 <__divmodsi4>:
+__divmodsi4():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1686
+ 4c2:	05 2e       	mov	r0, r21
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1687
+ 4c4:	97 fb       	bst	r25, 7
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1688
+ 4c6:	16 f4       	brtc	.+4      	; 0x4cc <__divmodsi4+0xa>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1689
+ 4c8:	00 94       	com	r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1690
+ 4ca:	0f d0       	rcall	.+30     	; 0x4ea <__negsi2>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1692
+ 4cc:	57 fd       	sbrc	r21, 7
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1693
+ 4ce:	05 d0       	rcall	.+10     	; 0x4da <__divmodsi4_neg2>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1694
+ 4d0:	1e d0       	rcall	.+60     	; 0x50e <__udivmodsi4>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1695
+ 4d2:	07 fc       	sbrc	r0, 7
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1696
+ 4d4:	02 d0       	rcall	.+4      	; 0x4da <__divmodsi4_neg2>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1697
+ 4d6:	46 f4       	brtc	.+16     	; 0x4e8 <__divmodsi4_exit>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1698
+ 4d8:	08 c0       	rjmp	.+16     	; 0x4ea <__negsi2>
+
+000004da <__divmodsi4_neg2>:
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1701
+ 4da:	50 95       	com	r21
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1702
+ 4dc:	40 95       	com	r20
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1703
+ 4de:	30 95       	com	r19
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1704
+ 4e0:	21 95       	neg	r18
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1705
+ 4e2:	3f 4f       	sbci	r19, 0xFF	; 255
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1706
+ 4e4:	4f 4f       	sbci	r20, 0xFF	; 255
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1707
+ 4e6:	5f 4f       	sbci	r21, 0xFF	; 255
+
+000004e8 <__divmodsi4_exit>:
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1709
+ 4e8:	08 95       	ret
+
+000004ea <__negsi2>:
+__negsi2():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1718
+ 4ea:	90 95       	com	r25
+ 4ec:	80 95       	com	r24
+ 4ee:	70 95       	com	r23
+ 4f0:	61 95       	neg	r22
+ 4f2:	7f 4f       	sbci	r23, 0xFF	; 255
+ 4f4:	8f 4f       	sbci	r24, 0xFF	; 255
+ 4f6:	9f 4f       	sbci	r25, 0xFF	; 255
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1719
+ 4f8:	08 95       	ret
+
+000004fa <__muluhisi3>:
+__muluhisi3():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:626
+ 4fa:	2b d0       	rcall	.+86     	; 0x552 <__umulhisi3>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:627
+ 4fc:	a5 9f       	mul	r26, r21
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:628
+ 4fe:	90 0d       	add	r25, r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:629
+ 500:	b4 9f       	mul	r27, r20
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:630
+ 502:	90 0d       	add	r25, r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:631
+ 504:	a4 9f       	mul	r26, r20
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:632
+ 506:	80 0d       	add	r24, r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:633
+ 508:	91 1d       	adc	r25, r1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:634
+ 50a:	11 24       	eor	r1, r1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:635
+ 50c:	08 95       	ret
+
+0000050e <__udivmodsi4>:
+__udivmodsi4():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1638
+ 50e:	a1 e2       	ldi	r26, 0x21	; 33
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1639
+ 510:	1a 2e       	mov	r1, r26
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1640
+ 512:	aa 1b       	sub	r26, r26
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1641
+ 514:	bb 1b       	sub	r27, r27
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1642
+ 516:	fd 01       	movw	r30, r26
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1644
+ 518:	0d c0       	rjmp	.+26     	; 0x534 <__udivmodsi4_ep>
+
+0000051a <__udivmodsi4_loop>:
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1646
+ 51a:	aa 1f       	adc	r26, r26
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1647
+ 51c:	bb 1f       	adc	r27, r27
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1648
+ 51e:	ee 1f       	adc	r30, r30
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1649
+ 520:	ff 1f       	adc	r31, r31
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1650
+ 522:	a2 17       	cp	r26, r18
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1651
+ 524:	b3 07       	cpc	r27, r19
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1652
+ 526:	e4 07       	cpc	r30, r20
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1653
+ 528:	f5 07       	cpc	r31, r21
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1654
+ 52a:	20 f0       	brcs	.+8      	; 0x534 <__udivmodsi4_ep>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1655
+ 52c:	a2 1b       	sub	r26, r18
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1656
+ 52e:	b3 0b       	sbc	r27, r19
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1657
+ 530:	e4 0b       	sbc	r30, r20
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1658
+ 532:	f5 0b       	sbc	r31, r21
+
+00000534 <__udivmodsi4_ep>:
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1660
+ 534:	66 1f       	adc	r22, r22
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1661
+ 536:	77 1f       	adc	r23, r23
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1662
+ 538:	88 1f       	adc	r24, r24
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1663
+ 53a:	99 1f       	adc	r25, r25
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1664
+ 53c:	1a 94       	dec	r1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1665
+ 53e:	69 f7       	brne	.-38     	; 0x51a <__udivmodsi4_loop>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1667
+ 540:	60 95       	com	r22
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1668
+ 542:	70 95       	com	r23
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1669
+ 544:	80 95       	com	r24
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1670
+ 546:	90 95       	com	r25
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1672
+ 548:	9b 01       	movw	r18, r22
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1674
+ 54a:	ac 01       	movw	r20, r24
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1676
+ 54c:	bd 01       	movw	r22, r26
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1678
+ 54e:	cf 01       	movw	r24, r30
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1680
+ 550:	08 95       	ret
+
+00000552 <__umulhisi3>:
+__umulhisi3():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:564
+ 552:	a2 9f       	mul	r26, r18
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:565
+ 554:	b0 01       	movw	r22, r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:566
+ 556:	b3 9f       	mul	r27, r19
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:567
+ 558:	c0 01       	movw	r24, r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:568
+ 55a:	a3 9f       	mul	r26, r19
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:578
+ 55c:	01 d0       	rcall	.+2      	; 0x560 <__umulhisi3+0xe>
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:580
+ 55e:	b2 9f       	mul	r27, r18
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:581
+ 560:	70 0d       	add	r23, r0
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:582
+ 562:	81 1d       	adc	r24, r1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:583
+ 564:	11 24       	eor	r1, r1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:584
+ 566:	91 1d       	adc	r25, r1
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:585
+ 568:	08 95       	ret
+
+0000056a <_exit>:
+exit():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ 56a:	f8 94       	cli
+
+0000056c <__stop_program>:
+__stop_program():
+/home/jenkins/workspace/avr-gcc-staging/label/debian7-x86_64/gcc-build/avr/avr4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ 56c:	ff cf       	rjmp	.-2      	; 0x56c <__stop_program>
