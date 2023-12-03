@@ -2,12 +2,15 @@ const int pwmPin = 3;  // PWM output pin
 const int increaseButtonPin = 2;  // Pin for increasing duty cycle
 const int decreaseButtonPin = 4;  // Pin for decreasing duty cycle
 const int numLeds = 10;
+const int minDutyCycle = 1;
+const int minTimer = 20;
+const int maxTimer = 79;
 
-int dutyCycle = 50;  // Initial duty cycle in percentage
+int dutyCycle = minDutyCycle;  // Initial duty cycle in percentage
 
 unsigned long lastIncreaseTime = 0;
 unsigned long lastDecreaseTime = 0;
-unsigned long debounceDelay = 100;  // Adjust as needed
+unsigned long debounceDelay = 200;  // Adjust as needed
 
 // Define pins for LEDs
 const int ledPins[] = {5, 6, 7, 8, 9, 10, 11, 12, 0, 1};  // Adjusted LED pins
@@ -39,7 +42,7 @@ void pwm25kHzBegin() {
   TCCR2A |= (1 << COM2B1) | (1 << WGM21) | (1 << WGM20);  // OC2B cleared/set on match when up/down counting, fast PWM
   // TCCR2B |= (1 << WGM22) | (1 << CS21);     // prescaler 8
   TCCR2B |= (1 << WGM22) | (1 << CS20);     // prescaler 1 25kHz at internal clock 2mHz
-  OCR2A = 79;                               // TOP overflow value (Hz)
+  OCR2A = maxTimer;                               // TOP overflow value (Hz)
   OCR2B = 0;
 }
 
@@ -54,13 +57,13 @@ void updateButtons() {
 
   // Decrease button
   if (digitalRead(decreaseButtonPin) == LOW && currentTime - lastDecreaseTime > debounceDelay) {
-    dutyCycle = max(dutyCycle - 5, 1);  // Decrease duty cycle by 5%
+    dutyCycle = max(dutyCycle - 5, minDutyCycle);  // Decrease duty cycle by 5%
     lastDecreaseTime = currentTime;
   }
 }
 
 void updateLeds() {
-  int numLitLeds = map(dutyCycle, 1, 100, 1, numLeds);
+  int numLitLeds = map(dutyCycle, minDutyCycle, 100, 1, numLeds);
 
   for (int i = 0; i < numLeds; ++i) {
     digitalWrite(ledPins[i], i < numLitLeds ? HIGH : LOW);
@@ -71,7 +74,7 @@ void updatePWM() {
   // Map duty cycle to the PWM range (0 to 79 for Timer2)
   // Serial.print("Duty Cycle: ");
   // Serial.println(dutyCycle);
-  int pwmValue = map(dutyCycle, 1, 100, 1, 79);
+  int pwmValue = map(dutyCycle, minDutyCycle, 100, minTimer, maxTimer);
   OCR2B = pwmValue;
   // Serial.print("PWM: ");
   // Serial.println(pwmValue);
